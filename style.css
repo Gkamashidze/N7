@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: FiraGO;
+    src: url(./src/fonts/FiraGO-Bold.woff);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+#main_container {
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-family: FiraGO;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.search_box {
+    margin-top: 30px;
+}
+
+.search_box_header {
+    border: 1px solid #EDEDED;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search_box_data {
+    width: 1223px;
+    height: 84px;
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    width: 359px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+
+    padding-left: 24px;
+}
+
+.search_btn {
+    width: 141px;
+    height: 50px;
+    background: #FFDD04;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #E8E8E8;
+}
+
+.user_list_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create_user_btn {
+    width: 141px;
+    height: 40px;
+    background: #FFDD04;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.user_list_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1223px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+}
+
+.user_list_data {
+    align-items: center;
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.user_list_data>div {
+
+
+    width: 1223px;
+    height: 65px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.delete_btn {
+    width: 93px;
+    height: 33px;
+    background: #FF8271;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.delete_btn>button {
+    background-color: #FF8271;
+    border-color: transparent;
+}
+
+.edit_btn {
+    display: flex;
+    justify-content: center;
+    width: 93px;
+    height: 33px;
+    background: #FFDD04;
+    border-radius: 10px;
+}
+
+.edit_btn>button {
+    background-color: #FFDD04;
+    border-color: transparent;
+}
