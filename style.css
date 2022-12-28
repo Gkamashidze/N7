@@ -53,6 +53,49 @@ table {
     justify-content: space-around;
 }
 
+.search_name {
+    width: 49px;
+    height: 19px;
+    /* font-weight: 400; */
+    font-size: 16px;
+    /* line-height: 19px; */
+    font-family: FiraGO;
+    color: #000000;
+}
+
+.search_email {
+    width: 49px;
+    height: 19px;
+    font-family: FiraGO;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.search_mobile {
+    width: 49px;
+    height: 19px;
+    font-family: FiraGO;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.search_action {
+    width: 49px;
+    height: 19px;
+    font-family: FiraGO;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
 .search_box_data {
     width: 1223px;
     height: 84px;
@@ -75,13 +118,34 @@ input {
     padding-left: 24px;
 }
 
+#text {
+    margin-left: 25px;
+    margin-right: 47px;
+    width: 359px;
+    height: 50px;
+}
+
+#email {
+    margin-right: 50px;
+    width: 266px;
+    height: 50px;
+}
+
+#mbtext {
+    width: 217px;
+    height: 50px;
+}
+
 .search_btn {
     width: 141px;
     height: 50px;
     background: #FFDD04;
     border-radius: 10px;
     border-color: transparent;
-    
+
+    margin-right: 39px;
+    margin-left: 79px;
+
 }
 
 ::placeholder {
@@ -106,6 +170,8 @@ input {
 
 p {
     font-family: FiraGO;
+    width: 106px;
+    height: 24px;
 }
 
 .user_list_header {
@@ -117,6 +183,7 @@ p {
     height: 65px;
     background: #FFFFFF;
     border: 1px solid #EDEDED;
+    margin-top: 21px;
 }
 
 .user_list_header>tr {
@@ -167,6 +234,7 @@ p {
     height: 33px;
     background: #FFDD04;
     border-radius: 10px;
+    margin-right: 8px;
 }
 
 .edit_btn>button {
