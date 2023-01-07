@@ -198,7 +198,18 @@ p {
 th,
 td {
     box-sizing: border-box;
+
     height: 65px;
+}
+
+.uh {
+    background: #FFFFFF;
+border: 1px solid #EDEDED;
+}
+
+.oh {
+    background: #FAFAFA;
+border: 1px solid #EDEDED;
 }
 
 .delete_btn>button {
